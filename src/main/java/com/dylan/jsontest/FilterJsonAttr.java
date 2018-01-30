@@ -9,6 +9,6 @@ public class FilterJsonAttr {
         child.setFather(father);
         JSON json  = MyJsonUtil.toJson(child, "name");
         System.out.println(json);
-        System.out.println("sdfijdfajefaj");
+        System.out.println("sdfijdfajefajcccccc");
     }
 }
