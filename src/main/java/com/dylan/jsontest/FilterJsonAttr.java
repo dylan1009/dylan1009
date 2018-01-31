@@ -10,5 +10,6 @@ public class FilterJsonAttr {
         JSON json  = MyJsonUtil.toJson(child, "name");
         System.out.println(json);
         System.out.println("sdfijdfajefajcccccc");
+        System.out.println("com computer update");
     }
 }
