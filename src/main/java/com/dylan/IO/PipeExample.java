@@ -25,7 +25,7 @@ public class PipeExample {
         Thread thread1 = new Thread(new Runnable() {
             public void run() {
                 try {
-                    outputStream.write("Hello world ! Pipe !".getBytes());
+                    outputStream.write("Hello world ! Pipe !".getBytes("UTF-8"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
